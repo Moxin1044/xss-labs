@@ -17,9 +17,9 @@ ini_set("display_errors", 0);
 $str = $_GET["keyword"];
 $str2=str_replace(">","",$str);
 $str3=str_replace("<","",$str2);
-echo "<h2 align=center>没有找到和".htmlspecialchars($str)."相关的结果.</h2>".'<center>
+echo "<h2 align=center>没有找到和".htmlspecialchars($str)."相关的结果.</h2>". '<center>
 <form action=level4.php method=GET>
-<input name=keyword  value="'.$str3.'">
+<input name=keyword  value="' .$str3.'">
 <input type=submit name=submit value=搜索 />
 </form>
 </center>';

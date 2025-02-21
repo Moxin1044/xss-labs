@@ -4,7 +4,7 @@
 <script>
 window.alert = function()  
 {     
-confirm("完成的不错！");
+confirm("qsnctf{00480241-7b3a-4e1a-a805-f6c9cffad04a}");
  window.location.href="level21.php?arg01=a&arg02=b"; 
 }
 </script>

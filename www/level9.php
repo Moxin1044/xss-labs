@@ -23,7 +23,7 @@ $str6=str_replace("href","hr_ef",$str5);
 $str7=str_replace('"','&quot',$str6);
 echo '<center>
 <form action=level9.php method=GET>
-<input name=keyword  value="'.htmlspecialchars($str).'">
+<input name=keyword  value="' .htmlspecialchars($str).'">
 <input type=submit name=submit value=添加友情链接 />
 </form>
 </center>';

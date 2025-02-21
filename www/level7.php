@@ -20,9 +20,9 @@ $str3=str_replace("on","",$str2);
 $str4=str_replace("src","",$str3);
 $str5=str_replace("data","",$str4);
 $str6=str_replace("href","",$str5);
-echo "<h2 align=center>没有找到和".htmlspecialchars($str)."相关的结果.</h2>".'<center>
+echo "<h2 align=center>没有找到和".htmlspecialchars($str)."相关的结果.</h2>". '<center>
 <form action=level7.php method=GET>
-<input name=keyword  value="'.$str6.'">
+<input name=keyword  value="' .$str6.'">
 <input type=submit name=submit value=搜索 />
 </form>
 </center>';
